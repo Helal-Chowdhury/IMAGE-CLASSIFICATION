@@ -35,4 +35,12 @@ To run the app, Go to __FRONEND__ and shoot this command:
 streamlit run Resnet.py
 ```
 <img align="left" width="1000" height="500" src="https://github.com/Helal-Chowdhury/IMAGE-CLASSIFICATION/blob/main/image.jpg">
- 
+
+
+## From web UI 
+ - select model
+ - upload image
+ - click the Predict button to predict
+
+Note: in free subscription of Github does not support to push a single filesize of more than 100 Mbyte. However, train the model and save it and test with Densene109 in your machine. Implementation of single model and multi models both are provided in __FRONEND__ folder
+
