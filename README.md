@@ -34,7 +34,14 @@ To run the app, Go to __FRONEND__ and shoot this command:
 ```bash
 streamlit run Resnet.py
 ```
+
+
 <img align="left" width="1000" height="500" src="https://github.com/Helal-Chowdhury/IMAGE-CLASSIFICATION/blob/main/image.jpg">
+
+
+
+
+
 
 
 ## From web UI 
