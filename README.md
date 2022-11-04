@@ -12,15 +12,8 @@ This project is divided into three parts:
  - Training (BACKEND)
  - Deployment (FRONEND)
 
-1. Create environment
-```bash
-conda create -n <yourenvname> python=x.x anaconda
-```
-2. Activate environment
-```bash
-conda activate <yourenvname>
-```
-3. install packages
+
+1. install packages
 ```bash
 conda env update -n <yourenvname> --file environment.yaml
 ```
@@ -29,17 +22,13 @@ Some packages have pip dependency. In this case, use  pip to install the package
 pip install <package name>
 ```
 ## RUN the App
-To run the app, Go to __FRONEND__ and shoot this command:              
-
+To run the app, Go to __FRONEND__ folder and shoot this command:              
 ```bash
 streamlit run Resnet.py
 ```
 
 
-<img align="left" width="1000" height="500" src="https://github.com/Helal-Chowdhury/IMAGE-CLASSIFICATION/blob/main/image.jpg">
-
-
-
+<img align="center" width="1000" height="500" src="https://github.com/Helal-Chowdhury/IMAGE-CLASSIFICATION/blob/main/image.jpg">
 
 
 
