@@ -13,6 +13,24 @@ This project is divided into three parts:
  - Training (BACKEND)
  - Deployment (FRONEND)
 
+1. Create environment
+```bash
+conda create -n <yourenvname> python=x.x anaconda
+```
+2. Activate environment
+```bash
+conda activate <yourenvname>
+```
+3. install packages
+```bash
+conda env update -n <yourenvname> --file environment.yaml
+```
+Some packages have pip dependency. In this case, use  pip to install the packages.
+```bash
+pip install <package name>
+```
+
+
 ## IMAGE-CLASSIFICATION
  <img align="left" width="1000" height="500" src="https://github.com/Helal-Chowdhury/IMAGE-CLASSIFICATION/blob/main/image.jpg">
  
