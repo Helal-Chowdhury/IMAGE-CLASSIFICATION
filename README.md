@@ -40,7 +40,7 @@ streamlit run Resnet.py
 ## From web UI 
  - select model
  - upload image
- - click the Predict button to predict
+ - click the **Predict** button to predict
 
 Note: in free subscription of Github does not support to push a single filesize of more than 100 Mbyte. However, train the model and save it and test with Densene109 in your machine. Implementation of single model and multi models both are provided in __FRONEND__ folder
 
