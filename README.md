@@ -8,7 +8,10 @@ In this project, A template has been made for any general purpose Image Classifi
 and [Hugging Face](https://huggingface.co/docs/hub/models-the-hub).
 
 ## How to create project environment and install packages:
-The project folder consists of three folders: __IMAGE_COLLECTION FOLDERS, BACKEND, FRONEND__.
+This project is divided into three parts:
+ - Image Collections (IMAGE-COLLECTION_AND_SPLITFOLDER)
+ - Training (BACKEND)
+ - Deployment (FRONEND)
 
 ## IMAGE-CLASSIFICATION
  <img align="left" width="1000" height="500" src="https://github.com/Helal-Chowdhury/IMAGE-CLASSIFICATION/blob/main/image.jpg">
