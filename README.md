@@ -13,13 +13,17 @@ This project is divided into three parts:
  - Deployment (FRONEND)
 
 
-1. install packages
+Create Environment and Installation Packages
+
 ```bash
-conda env update -n <yourenvname> --file environment.yaml
+conda create --name <environment name> python=3.8
+conda activate <environment name>
+pip install -r requirements.txt
 ```
-Some packages have pip dependency. In this case, use  pip to install the packages.
+In case you have difficulties with installation of specific version of torch and torch vision use the following commands to install:
 ```bash
-pip install <package name>
+pip install torch==1.7.1 --no-cache-dir
+pip install torchvision==0.8.2  --no-cache-dir
 ```
 ## RUN the App
 To run the app, Go to __FRONEND__ folder and shoot this command:              
