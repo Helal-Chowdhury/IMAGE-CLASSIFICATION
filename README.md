@@ -20,7 +20,7 @@ conda create --name <environment name> python=3.8
 conda activate <environment name>
 pip install -r requirements.txt
 ```
-In case you have difficulties with installation of specific version of torch and torch vision use the following commands to install:
+In case you have difficulties with installation of specific version of torch and torchvision use the following commands to install:
 ```bash
 pip install torch==1.7.1 --no-cache-dir
 pip install torchvision==0.8.2  --no-cache-dir
